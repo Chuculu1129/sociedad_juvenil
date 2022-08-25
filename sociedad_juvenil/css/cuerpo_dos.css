@@ -1,0 +1,78 @@
+#cuerpo_dos{
+    padding: 30px;
+    display: none;
+}
+
+/* logo */
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+/* eslogan */
+.eslogan{
+    margin-bottom: 100px;
+}
+
+.eslogan h3{
+    border: 1px solid rgb(165, 159, 159);
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: #F48FB1;
+    box-shadow: 5px 5px 5px rgb(116, 115, 115);
+    color: white;
+}
+
+.eslogan p{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* colores------------------- */
+#cuerpo_dos h2{
+    border: 1px solid rgb(165, 159, 159);
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: #BB8FCE;
+    box-shadow: 5px 5px 5px rgb(116, 115, 115);
+    color: white;
+}
+
+.color img{
+    width: 20%;
+}
+
+.color{
+    display: flex;
+    align-items: center;
+}
+
+.color p{
+    font-size: 20px
+}
+
+.foto_vario img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+@media(max-width:450px){
+
+    .eslogan h3 , #cuerpo_dos h2{
+        width: 50%;
+        font-size: 20px;
+    }
+
+    #cuerpo_dos p{
+        font-size: 14px;
+    }
+}

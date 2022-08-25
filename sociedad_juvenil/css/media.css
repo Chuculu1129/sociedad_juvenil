@@ -1,0 +1,162 @@
+@media(max-width:1400px){
+    /* 头部切换 *****************************************/
+
+    /* 按钮 */
+    #cabezon h1{
+        font-size: 18px;
+    }
+
+    /* 图片 */
+    #mariposon img{
+        width: 40px;
+        height: 45px;
+    }
+
+    #mariposon{
+        width: 70%;
+    }
+
+    /* 身体切换************************************************ */
+    #cuerpo{
+        width: 80%;
+    }
+
+    /* titulo */
+    .t1 h2{
+        font-size: 70px;
+    }
+}
+
+@media(max-width:940px){
+    /* 身体切换****************************************************** */
+    /* 照片 */
+    .img{
+        padding: 10px;
+        height: 600px;
+    }
+
+    /* 身体-文本 */
+    #cuerpo p{
+        font-size: 18px;
+    }
+
+    /* 文本2-titulo */
+    .t2 h3{
+        font-size: 14px;
+    }
+
+    .t2{
+        width: 25%;
+    }
+}
+
+@media(max-width:750px){
+    /* 头框文字 */
+    #cabezon h1{
+        font-size: 16px;
+    }
+
+    /* 身体- titulo */
+    .t1 h2{
+        font-size: 45px;
+    }
+
+    /* 照片 */
+    .img{
+        padding: 10px;
+        height: 450px;
+    }
+
+     /* 身体-文本 */
+    #cuerpo p{
+        font-size: 16px;
+    }
+
+    .t2{
+        width: 30%;
+    }
+
+}
+
+@media(max-width:690px){
+
+    /* 头框 */
+    #cabezon{
+       padding: 10px;
+
+    }
+
+    .titulo img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #mariposon img{
+        width: 30px;
+        height: 35px;
+    }
+    
+     /* 身体-文本 */
+    #cuerpo p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:610px){
+
+     /* 头框文字 */
+     #cabezon h1{
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:590px){
+    #cuerpo{
+        width: 100%;
+    }
+}
+
+@media(max-width:550px){
+     /* 头框文字 */
+     #cabezon h1{
+        font-size: 10px;
+    }
+
+    #mariposon img{
+        width: 20px;
+        height: 25px;
+    }
+}
+
+@media(max-width:500px){
+    #cabezon h1{
+        font-size: 4px;
+    }
+
+    #cabezon , #cuerpo{
+        margin-top: 20px;
+    }
+
+    .t1 h2{
+        font-size: 30px;
+    }
+
+    .img{
+        height: 300px;
+    }
+
+    .t2{
+        width: 60%;
+    }
+
+    .linea_tiempo img{
+        width: 30%;
+    }
+
+    .enlaces img{
+        width: 15%;
+    }
+
+
+}

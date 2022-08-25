@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagen/fondo5.jpg);
+}
+
+/* 头部设计 ***********************************************************/
+#cabezon{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid #E1BEE7 ;
+    border-top: 5px solid #F3E5F5;
+   
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #FCE4EC;
+}
+
+/* 花朵 */
+.titulo img{
+    width: 20%;
+    margin-left: 15px;
+    margin-right: 15px;  
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+/* 蝴蝶 */
+
+#mariposon img{
+    width: 60px;
+    margin: 0;
+
+}
+
+#mariposon{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    animation-name: mariposa;
+    animation-duration: 0.8s;
+}
+
+/* 蝴蝶动画 ------------------------- */
+@keyframes mariposa1{
+    from{justify-content: center;}
+    to{justify-content: flex-end;}
+}
+
+@-webkit-keyframes mariposa1{
+    from{justify-content: center;}
+    to{justify-content: flex-end;}
+}
+
+@keyframes mariposa2{
+    from{justify-content: center;}
+    to{justify-content: flex-start;}
+}
+
+@-webkit-keyframes mariposa2{
+    from{justify-content: center;}
+    to{justify-content: flex-start;}
+}
+
+
+/* ---------------------------------- */
+#cabezon button{
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFEBEE ;
+}
+   
+
+
+#cabezon h1{
+    color: #7B1FA2;
+}
+
+#cabezon button:hover{
+    border-bottom: 5px solid #B39DDB;
+}
+
+
+
+/* 身体********************************************************************* */
+
+/* #cuerpo_uno{
+    display: none;
+} */
+
+
+#cuerpo{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+/* titulo */
+.t1 h2{
+    text-align: center;
+    color: #D81B60;
+    font-size: 80px;
+    text-shadow: 8px 8px 8px #880E4F;
+    text-decoration:underline ;
+    padding-top: 30px;
+}
+
+/* 相片 */
+
+.img{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    border-top: 2px solid #D1C4E9;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img img{
+    width: 100%;
+    
+}
+
+/* 文本1 */
+
+.biografia_content , .linea_tiempo{
+    padding: 20px;
+}
+
+.biografia_content p{
+    width: 100%;
+    font-size: 20px;
+}
+
+/* 文本2 - titulo */
+
+.t2{
+    border: 1px solid rgb(165, 159, 159);
+    width: 20%;
+    text-align: center;
+    background-color: #F48FB1;
+    box-shadow: 5px 5px 5px rgb(116, 115, 115);
+    margin-bottom: 100px;
+}
+
+.t2 h3{
+    color: white;
+}
+
+/* 文本2 - 图片 */
+
+.linea_tiempo img{
+    width: 20%;
+}
+
+.inter2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* 文本2 - 内容 */
+
+.linea_tiempo p{
+    background-color: rgb(253, 249, 243);
+    font-size: 20px;
+}
+
+/* 链接 */
+
+.enlaces img{
+    width: 8%;
+    position: fixed;
+    z-index: 1;
+    bottom: 100px;
+    right: 2px;
+}
+
+
